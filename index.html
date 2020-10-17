@@ -2,6 +2,12 @@
 <html>
 
 <head>
+	    <meta property="og:site_name" content="Brickplayer"/>
+    <meta property="og:title" content="A better brick-hill client."/>
+    <meta property="og:description" content="BrickPlayer is a custom client for Brick-Hill with improved graphics, performance, and several other features missing from the official client. If you encounter any issues, please report them in the Ty Development Discord server."/>
+    <meta property="og:image" content="https://tythepotato.github.io/BrickPlayer/Logo.png" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://core-commits.github.io/Brickplayer/">
     <style>
         .twentytwenty-horizontal .twentytwenty-handle:before,
         .twentytwenty-horizontal .twentytwenty-handle:after,
@@ -296,19 +302,22 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link href="https://bootswatch.com/4/slate/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://v2.vistora.xyz/scripts/bootstrap.css?r=969463" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
     <div class="container-fluid centered">
-        <nav class="navbar navbar-dark bg-dark display-3"> <a class="navbar-brand display-2" href="#">
+        <nav class="navbar "> <a class="navbar-brand display-2" href="#">
     BrickPlayer</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon btn-danger">M</span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span>
-</a></li>
+                    <li class="nav-item active"> <a class="nav-link" href="brickplayer.html">Home <span class="sr-only">(current)</span></a></li>
+<li class="nav-item"> <a class="nav-link" href="dev.html">Developers Documentation <span class="sr-only">(current)</span></a></li>
+
+
+
                 </ul>
             </div>
         </nav>
@@ -322,12 +331,12 @@
         </div>
         <div class="container-md centered top-buffer align-content-center" style="margin-top=10px">
             </img>
-            <div class="jumbotron">
+            <div>
 
-                <h1 class="display-3">Brickplayer</h1>
+                <h1 class="display-3 text-info">Brickplayer</h1>
                 <p class="lead">BrickPlayer is a custom client for Brick-Hill with improved graphics and performance.</p>
                 <hr class="my-4">
-                <p>BrickPlayer is a custom client for Brick-Hill with improved graphics, performance, and several other features missing from the official client. If you encounter any issues, please report them in the Ty Development Discord server.</p>
+                <p class="text-success">BrickPlayer is a custom client for Brick-Hill with improved graphics, performance, and several other features missing from the official client. If you encounter any issues, please report them in the Ty Development Discord server.</p>
                 <center>
 
                     <div id="container">
@@ -362,9 +371,9 @@
 
             </div>
             <h2>Browser Extensions</h2>
-            <a class="btn-dark btn" href="https://cdn.discordapp.com/attachments/754227890467504178/764500292108550224/BrickPlayer_Chrome.zip">Chrome Extension</a>
+            <a class="btn-info btn" href="https://cdn.discordapp.com/attachments/754227890467504178/764500292108550224/BrickPlayer_Chrome.zip">Chrome Extension</a>
             <p>The chrome extension supports all chromium based browsers. (Brave, New Edge etc...)</p>
-            <a class="btn-dark btn" href="https://addons.mozilla.org/en-US/android/addon/brickplayer-game-launcher/">Firefox Extension</a>
+            <a class="btn-info btn" href="https://addons.mozilla.org/en-US/android/addon/brickplayer-game-launcher/">Firefox Extension</a>
             <p>The Firefox extension is only supported by Normal Firefox <b>Nightly or Special Builds may not allow the extension</b>.</p>
         </div>
     </div>
